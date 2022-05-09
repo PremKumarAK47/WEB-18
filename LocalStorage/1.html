@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    //SetItem
+    //Get item
+    //clear rmove item
+    //Json.stringfy()
+    //json.parse()
+    //localStorge.setItem("key","value")
+
+    //**********************//
+    //Numbers
+    localStorage.setItem("mobile",91819110)
+    localStorage.setItem("cvv",2345)
+    //strings
+    localStorage.setItem("name","Prem")
+     
+    var Studentname="Gaurav"
+    localStorage.setItem("Sname",Studentname)
+//bmb
+//localstorage will accept to store only strings and numbers
+//get item("key") we neeed only key
+var getmobile=localStorage.getItem("mobile");
+console.log(getmobile)
+console.log(localStorage.getItem("cvv"))
+console.log(localStorage.getItem("cvvfdgfg"))
+// if we try to search anything that is not present then it will return Null
+console.log(localStorage.getItem("Sname"))
+
+
+var obj={
+    name:"masai",
+    name:"School"
+};
+console.log(obj.name)
+
+</script>
